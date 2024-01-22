@@ -1,0 +1,116 @@
+
+.header {
+    margin: 60px;
+}
+
+img.align-left {
+    float: left;
+    padding-left: 70px;
+}
+
+img.small {
+    width: 100px;
+    height: auto;
+}
+
+.company {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    color: red;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 32px;
+}
+
+.info {
+    width: 350px;
+    margin: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-self: stretch;
+    display: block;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 10px;
+}
+
+.circular--square { 
+    object-fit: cover;
+    width: 350px;
+    height: auto;
+}
+
+.second-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.second-title {
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .second-title:before {
+    position: absolute;
+    bottom: 11px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 5px;
+    content: '';
+    border-radius: 3px;
+    background: #ff0000;
+  }
+
+.ellipsis {
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+.box {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.end {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
